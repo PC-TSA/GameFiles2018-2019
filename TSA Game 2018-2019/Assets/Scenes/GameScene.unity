@@ -195,7 +195,7 @@ Transform:
   m_GameObject: {fileID: 79655314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.2349768, y: -1.95, z: 0.31647253}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.3789, y: 1, z: 4.7838}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -630,7 +630,13 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 54114747494207670, guid: 57d0d04a58ad0d643997a2937ad14221,
+        type: 2}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 136659377243082480, guid: 57d0d04a58ad0d643997a2937ad14221, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 57d0d04a58ad0d643997a2937ad14221, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1511869998
@@ -662,3 +668,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1677755638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1566312186694380, guid: 57d0d04a58ad0d643997a2937ad14221,
+    type: 2}
+  m_PrefabInternal: {fileID: 1403134412}
+--- !u!114 &1677755639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677755638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e99a6a1584a2324bae72eef68faba50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 100
+  clampAngle: 80
+--- !u!65 &1677755640
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677755638}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.232284, z: 1}
+  m_Center: {x: 0, y: 0.055609465, z: 0}
+--- !u!1 &2098524944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1217276175554616, guid: 57d0d04a58ad0d643997a2937ad14221,
+    type: 2}
+  m_PrefabInternal: {fileID: 1403134412}
+--- !u!114 &2098524948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2098524944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b105a03ce70654285ae286d951f09f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 100
+  clampAngle: 80
