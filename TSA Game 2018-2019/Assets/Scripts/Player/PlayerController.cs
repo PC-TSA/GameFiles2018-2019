@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour {
 
     //Movement & Rotation
     public float mouseSensitivity = 100f;
-    public float xClamp; //How far up/down you can look
+    public float clampAngle; //How far up/down you can look
     public float rotY; // rotation around the up/y axis
     public float rotX; // rotation around the right/x axis
 
@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour {
         rotY += mouseX * mouseSensitivity * Time.deltaTime;
         rotX += mouseY * mouseSensitivity * Time.deltaTime;
 
-        rotX = Mathf.Clamp(rotX, -xClamp, xClamp);
+        rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
 
         Quaternion headRotation = Quaternion.Euler(rotX, rotY, 0.0f);
         Quaternion bodyRotation = Quaternion.Euler(transform.rotation.x, rotY, 0.0f);

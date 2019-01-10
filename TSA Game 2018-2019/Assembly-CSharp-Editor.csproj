@@ -70,14 +70,17 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
+      <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
+      <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
-      <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
@@ -87,9 +90,6 @@
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.HighDefinition.Editor">
-      <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
@@ -360,9 +360,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.NRefactory">
-      <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/PackageCache/com.unity.render-pipelines.high-definition@4.1.0-preview/Editor/Core/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>E:/Unity/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
