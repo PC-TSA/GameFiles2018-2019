@@ -39,7 +39,22 @@ ModelImporter:
     4300004: pPlatonic2
     4300006: pasted__pPlatonic2
     4300008: pCube2
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Leaves
+    second: {fileID: 2100000, guid: 901ebf0df98fddb4ab5b68fe6b5c6a76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Leaves2
+    second: {fileID: 2100000, guid: 5dab90182c29d8349a88f830b11e96de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Wood
+    second: {fileID: 2100000, guid: 468df73a3254fa648910b35e9c949080, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
