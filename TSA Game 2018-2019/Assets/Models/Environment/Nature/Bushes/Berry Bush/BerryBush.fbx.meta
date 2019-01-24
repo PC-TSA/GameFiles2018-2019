@@ -7,22 +7,35 @@ ModelImporter:
     100002: pCylinder1
     100004: pPlatonic1
     100006: pPlatonic15
+    100008: Berries
+    100010: BerryBush
+    100012: Bush
+    100014: transform1
+    100016: transform2
     400000: //RootNode
     400002: pCylinder1
     400004: pPlatonic1
     400006: pPlatonic15
+    400008: Berries
+    400010: BerryBush
+    400012: Bush
+    400014: transform1
+    400016: transform2
     2100000: Leaves2
     2100002: BerryBush_Wood
     2100004: lambert2
     2300000: pCylinder1
     2300002: pPlatonic1
     2300004: pPlatonic15
+    2300006: BerryBush
     3300000: pCylinder1
     3300002: pPlatonic1
     3300004: pPlatonic15
+    3300006: BerryBush
     4300000: pPlatonic1
     4300002: pCylinder1
     4300004: pPlatonic15
+    4300006: BerryBush
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -69,7 +82,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 20
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1

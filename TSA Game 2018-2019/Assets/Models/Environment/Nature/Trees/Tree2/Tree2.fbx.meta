@@ -13,6 +13,12 @@ ModelImporter:
     100014: //RootNode
     100016: Tree2
     100018: Tree_group
+    100020: pCube5 1
+    100022: transform1
+    100024: transform2
+    100026: transform3
+    100028: transform4
+    100030: transform5
     400000: Bush_group
     400002: group
     400004: pCube3
@@ -23,6 +29,12 @@ ModelImporter:
     400014: //RootNode
     400016: Tree2
     400018: Tree_group
+    400020: pCube5 1
+    400022: transform1
+    400024: transform2
+    400026: transform3
+    400028: transform4
+    400030: transform5
     2100000: Tree2_Leaves
     2100002: Tree2_Wood
     2300000: pCube3
@@ -81,7 +93,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 1.55
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
