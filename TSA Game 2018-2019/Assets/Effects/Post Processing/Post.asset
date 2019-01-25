@@ -17,6 +17,7 @@ MonoBehaviour:
   - {fileID: 114420060492067796}
   - {fileID: 114849306599060878}
   - {fileID: 114607425438143094}
+  - {fileID: 114418063848136516}
 --- !u!114 &114412711655952298
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -61,6 +62,55 @@ MonoBehaviour:
   opacity:
     overrideState: 0
     value: 1
+--- !u!114 &114418063848136516
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1cb7e9e120078f43bce4f0b1be547a7, type: 3}
+  m_Name: AmbientOcclusion
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  mode:
+    overrideState: 0
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 0.5
+  color:
+    overrideState: 0
+    value: {r: 0, g: 0, b: 0, a: 1}
+  ambientOnly:
+    overrideState: 0
+    value: 1
+  noiseFilterTolerance:
+    overrideState: 0
+    value: 0
+  blurTolerance:
+    overrideState: 0
+    value: -4.6
+  upsampleTolerance:
+    overrideState: 0
+    value: -12
+  thicknessModifier:
+    overrideState: 0
+    value: 1
+  directLightingStrength:
+    overrideState: 0
+    value: 0
+  radius:
+    overrideState: 0
+    value: 0.25
+  quality:
+    overrideState: 0
+    value: 2
 --- !u!114 &114420060492067796
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -107,13 +157,13 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 5
+    value: 2
   threshold:
     overrideState: 1
     value: 1.2
   softKnee:
     overrideState: 1
-    value: 0.5
+    value: 0.6
   clamp:
     overrideState: 0
     value: 65472
@@ -207,7 +257,7 @@ MonoBehaviour:
     value: 0
   postExposure:
     overrideState: 1
-    value: 1
+    value: 1.1
   contrast:
     overrideState: 0
     value: 0
@@ -240,13 +290,13 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 0
-    value: {x: 0.7106122, y: 0.5870882, z: 1, w: -0.5394191}
+    value: {x: 0.94953686, y: 0.591892, z: 1, w: -0.5394191}
   gamma:
     overrideState: 0
-    value: {x: 0.6145904, y: 0.52935314, z: 1, w: 0}
+    value: {x: 0.8377052, y: 0.57457304, z: 1, w: 0}
   gain:
     overrideState: 0
-    value: {x: 1, y: 0.968889, z: 0.95113385, w: 0}
+    value: {x: 1, y: 0.9829192, z: 0.9694085, w: 0}
   masterCurve:
     overrideState: 0
     value:

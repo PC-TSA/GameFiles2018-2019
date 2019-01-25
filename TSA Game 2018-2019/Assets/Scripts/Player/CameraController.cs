@@ -20,11 +20,11 @@ public class CameraController : MonoBehaviour
     {
         // Set target direction to the camera's initial orientation.
         targetDirection = transform.rotation.eulerAngles;
-    }
 
-    void Update()
-    {
-
+        //Objects at layer 0 cull at 150, all else cull at camera's default
+        float[] distances = new float[32];
+        distances[0] = 150;
+        GetComponent<Camera>().layerCullDistances = distances;
     }
 
     public void FixedUpdate()

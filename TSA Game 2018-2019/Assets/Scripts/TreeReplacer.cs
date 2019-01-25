@@ -14,15 +14,19 @@ public class TreeReplacer : MonoBehaviour
     {
         // Grab the terrain's data
         TerrainData terrain = terrainObj.GetComponent<Terrain>().terrainData;
-
+        int count = 0;
         // For every tree on the terrain
         foreach (TreeInstance tree in terrain.treeInstances)
         {
-            //TreeInstance tree2 = new TreeInstance();
-            //tree2.rotation = 10f;
+            TreeInstance tree2 = tree;
+            float temp = tree.rotation;
+            tree2.rotation = Mathf.Deg2Rad * Random.Range(0, 180);
+            terrain.SetTreeInstance(count, tree2);
+            Debug.Log("Index: " + count + " Old Rot: " + temp + " New rot: " + tree.rotation + " Intended Rot: " + tree2.rotation);
+            count++;
 
             //If the tree is the targetObj type of tree
-            if(terrain.treePrototypes[tree.prototypeIndex].prefab == targetObj)
+            if(targetObj != null && terrain.treePrototypes[tree.prototypeIndex].prefab == targetObj)
             {
                 //Add propper tree in it's place
                 Vector3 worldTreePos = Vector3.Scale(tree.position, terrain.size) + Terrain.activeTerrain.transform.position;

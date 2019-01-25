@@ -67,10 +67,8 @@
     <Compile Include="Assets\Scripts\Player\MovementScript.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\terraintreereplacer.cs" />
     <Compile Include="Assets\Scripts\TreeReplacer.cs" />
-    <None Include="Assets\Shaders\flat_shading.shader" />
-    <None Include="Assets\Shaders\wavingdoublepass.shader" />
-    <None Include="Assets\Shaders\PW_Tree.shader" />
     <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
     <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
     <Reference Include="Unity.RenderPipelines.Core.Editor">
