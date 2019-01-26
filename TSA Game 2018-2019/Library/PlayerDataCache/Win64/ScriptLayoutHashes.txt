@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/gabri/Desktop/Builds/TSA Game 2018-2019.exe
+C:/Users/gabri/Desktop/Builds/v0.0.3/TSA Game 2018-2019.exe
 SceneListBegin?
 Assets/Scenes/GameScene.unity
 SceneListEnd?
@@ -28,8 +28,7 @@ e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventH
 af93f9c42e90877a9ba31e37adfd900c Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.MotionBlur
 9ac327467393cb6c8045a2fd90ff67e2 Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerPersistentCanvas
 1f0602e7bad1e0a9cba31ce292eee8bb Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerVBox
-bf137d94a98dcbe7bf5411e7e787986e Assembly-CSharp.dll:.PlayerController
-71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.Editor.dll:UnityEngine.Advertisements.Editor.Placeholder
+a1527141015f9884848f274120dd2ffa Assembly-CSharp.dll:.PlayerController
 df234238698383141666442be576639b Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.HDPipeline.RenderPipelineResources
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -139,6 +138,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 ea768af7fe4ca0f18f65e30dd717c8dc Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.UI.UIFoldout
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
+3b67bffcf44c385fa9ff1d92957ae4d7 Assembly-CSharp.dll:.TreeReplacer
 7e6ed836cbaa230e56d6a2bbae1b9bb5 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.PostProcessEffectSettings
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 5e1eefcd5106de6c2e85908a3b2d3f04 Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerToggle
@@ -150,6 +150,7 @@ b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 04561ab2e3fdef92bfee231b02af44b2 Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.HDPipeline.ScreenSpaceRefraction
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.DebugUpdater
 6977549dce8576b23ed89390dfc0c1eb Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.HDPipeline.VolumetricFog
+81f4f289ba81fae7b9552d4952dd28e7 Assembly-CSharp.dll:.Water
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 f30fa5fb83ddf74479cf38867ce69e04 Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.HDPipeline.ShaderWindSettings
 d6fc8d3165070298511ec776ea575626 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.PostProcessResources
@@ -186,7 +187,6 @@ f79e983672d079ff24eee15484fb74b8 Unity.RenderPipelines.HighDefinition.Runtime.dl
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 0c6ffb0777bba810b63176033c2c4e2f Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.HDPipeline.ReflectionProxyVolumeComponent
 ceca9a616440e4a907294c1792e32c1f Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.HDPipeline.HDShadowSettings
-71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 cf96e5f7b3d069bab453925bd41be04e UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 259d013faac28e8ba0aa2a7542273735 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
@@ -214,6 +214,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 4534d366cb551e4098fdfc0cdeb68d23 Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.HDPipeline.ProceduralSky
 8d35f16c5022311c6f4d9432be73bfcf Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerValue
 445a5c00465b89f1b3687a85358d7a2d Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.HDPipeline.GradientSky
+f3d51b8246f6c63289dcbe4a61c1b31d Assembly-CSharp.dll:.CameraController
 8d35f16c5022311c6f4d9432be73bfcf Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerUIntField
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 ef6ed3645954a83c440201bfb3d0373f Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.HDPipeline.VolumetricLightingController
@@ -226,6 +227,7 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 cd1e91f5afed259a1512bbf18dc12bd7 Unity.RenderPipelines.HighDefinition.Runtime.dll:.SceneRenderPipeline
 ac6acd886c54c48c599ab5fed5781ea7 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+ee8bca05bd5a5c05a2fefc4497419a40 Assembly-CSharp.dll:.MovementScript
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 16e79f3ae2957e866ec1373ffaeca16a Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.AdditionalShadowData
 bb6b9a25e695d7981ce2d853a697a828 Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerVector4
@@ -238,3 +240,4 @@ ca0b8ad3987cd33b3209a508b6e1562e Unity.RenderPipelines.HighDefinition.Runtime.dl
 841afd6e8c78e80c87db221ef4c3c06c Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.HDPipeline.ReflectionSystemSceneDictionary
 2388eb9e99b86b3813e7b6dbfe4b3e0c Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerContainer
 8d35f16c5022311c6f4d9432be73bfcf Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerIndirectFloatField
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.FPSDisplay

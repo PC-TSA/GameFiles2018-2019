@@ -6,7 +6,8 @@ public class GameController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Application.targetFrameRate = 60;
+        QualitySettings.vSyncCount = 1;
+
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }

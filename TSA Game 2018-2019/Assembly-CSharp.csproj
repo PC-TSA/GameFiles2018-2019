@@ -67,8 +67,8 @@
     <Compile Include="Assets\Scripts\Player\MovementScript.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\Scripts\terraintreereplacer.cs" />
     <Compile Include="Assets\Scripts\TreeReplacer.cs" />
+    <Compile Include="Assets\Scripts\UI\FPSDisplay.cs" />
     <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
     <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
     <Reference Include="Unity.RenderPipelines.Core.Editor">
@@ -82,9 +82,6 @@
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
       <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
@@ -310,12 +307,6 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>E:/Unity/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>E:/Game Making/GameFiles2018-2019/TSA Game 2018-2019/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
