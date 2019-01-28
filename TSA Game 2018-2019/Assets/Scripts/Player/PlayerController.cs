@@ -5,9 +5,8 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject character;
 
-    void Update()
+    /*void Update()
     {
         
-
-    }
+    }*/
 }

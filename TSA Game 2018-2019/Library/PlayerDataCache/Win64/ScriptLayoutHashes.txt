@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/gabri/Desktop/Builds/v0.0.3/TSA Game 2018-2019.exe
+C:/Users/gabri/Desktop/Builds/v0.0.4/TSA Game 2018-2019.exe
 SceneListBegin?
 Assets/Scenes/GameScene.unity
 SceneListEnd?
@@ -238,6 +238,6 @@ ca0b8ad3987cd33b3209a508b6e1562e Unity.RenderPipelines.HighDefinition.Runtime.dl
 1f0602e7bad1e0a9cba31ce292eee8bb Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerHBox
 43955dedf6c953b26d97058cccc47845 Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.HDPipeline.MicroShadowing
 841afd6e8c78e80c87db221ef4c3c06c Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.HDPipeline.ReflectionSystemSceneDictionary
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.FPSDisplay
 2388eb9e99b86b3813e7b6dbfe4b3e0c Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerContainer
 8d35f16c5022311c6f4d9432be73bfcf Unity.RenderPipelines.HighDefinition.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerIndirectFloatField
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.FPSDisplay
