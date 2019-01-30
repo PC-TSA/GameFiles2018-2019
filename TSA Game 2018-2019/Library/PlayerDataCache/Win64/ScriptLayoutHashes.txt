@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/gabri/Desktop/Builds/v0.0.4/TSA Game 2018-2019.exe
+C:/Users/gabri/Desktop/Builds/v0.0.4.4a/TSA Game 2018-2019.exe
 SceneListBegin?
 Assets/Scenes/GameScene.unity
 SceneListEnd?
