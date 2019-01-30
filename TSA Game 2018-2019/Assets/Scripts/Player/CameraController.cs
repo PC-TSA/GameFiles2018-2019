@@ -10,31 +10,47 @@ public class CameraController : MonoBehaviour
     Vector2 _smoothMouse;
 
     public Vector2 clampInDegrees = new Vector2(360, 180);
+    public bool lockCursor;
     public Vector2 sensitivity = new Vector2(2, 2);
     public Vector2 smoothing = new Vector2(3, 3);
     public Vector2 targetDirection;
+    public Vector2 targetCharacterDirection;
 
-    public Quaternion rotation = Quaternion.identity;
+    // Assign this if there's a parent object controlling motion, such as a Character Controller.
+    // Yaw rotation will affect this object instead of the camera if set.
+    public GameObject characterBody;
+
+    public Vector2 mouseDelta;
 
     void Start()
     {
-        // Set target direction to the camera's initial orientation.
-        targetDirection = transform.rotation.eulerAngles;
-
         //Objects at layer 0 cull at 150, all else cull at camera's default
         float[] distances = new float[32];
         distances[0] = 150;
         GetComponent<Camera>().layerCullDistances = distances;
+
+        // Set target direction to the camera's initial orientation.
+        targetDirection = transform.localRotation.eulerAngles;
+
+        // Set target direction for the character body to its inital state.
+        if (characterBody)
+            targetCharacterDirection = characterBody.transform.localRotation.eulerAngles;
     }
 
-    public void FixedUpdate()
+    void Update()
     {
-        transform.position = characterModel.transform.position;
+        // Ensure the cursor is always locked when set
+        if (lockCursor)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+
         // Allow the script to clamp based on a desired target value.
-        Quaternion targetOrientation = Quaternion.Euler(targetDirection);
+        var targetOrientation = Quaternion.Euler(targetDirection);
+        var targetCharacterOrientation = Quaternion.Euler(targetCharacterDirection);
 
         // Get raw mouse input for a cleaner reading on more sensitive mice.
-        var mouseDelta = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
+        mouseDelta = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
 
         // Scale input against the sensitivity setting and multiply that against the smoothing value.
         mouseDelta = Vector2.Scale(mouseDelta, new Vector2(sensitivity.x * smoothing.x, sensitivity.y * smoothing.y));
@@ -50,20 +66,17 @@ public class CameraController : MonoBehaviour
         if (clampInDegrees.x < 360)
             _mouseAbsolute.x = Mathf.Clamp(_mouseAbsolute.x, -clampInDegrees.x * 0.5f, clampInDegrees.x * 0.5f);
 
-        var xRotation = Quaternion.AngleAxis(-_mouseAbsolute.y, targetOrientation * Vector3.right);
-        transform.localRotation = xRotation;
-
         // Then clamp and apply the global y value.
         if (clampInDegrees.y < 360)
             _mouseAbsolute.y = Mathf.Clamp(_mouseAbsolute.y, -clampInDegrees.y * 0.5f, clampInDegrees.y * 0.5f);
 
-        var yRotation = Quaternion.AngleAxis(_mouseAbsolute.x, transform.InverseTransformDirection(Vector3.up));
+        transform.localRotation = Quaternion.AngleAxis(-_mouseAbsolute.y, targetOrientation * Vector3.right) * targetOrientation;
 
-        transform.localRotation *= yRotation;
-        transform.rotation *= targetOrientation;
-
-        //Rotate character model
-        rotation.eulerAngles = new Vector3(characterModel.transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, characterModel.transform.rotation.eulerAngles.x);
-        characterModel.transform.rotation = rotation;
+        // If there's a character body that acts as a parent to the camera
+        if (Mathf.Abs(_smoothMouse.x) > 0.1f || Mathf.Abs(_smoothMouse.y) > 0.1f)
+        {
+            var yRotation = Quaternion.AngleAxis(_mouseAbsolute.x, Vector3.up);
+            characterBody.transform.localRotation = yRotation * targetCharacterOrientation;
+        }
     }
 }
