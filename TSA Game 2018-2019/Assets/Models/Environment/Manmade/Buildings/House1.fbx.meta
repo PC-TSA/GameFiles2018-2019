@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 5cf5800cf244da54ca1284cb6235e304
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: group
+    100002: group1
+    100004: group3
+    100006: group4
+    100008: group5
+    100010: group6
+    100012: group7
+    100014: group8
+    100016: group9
+    100018: House
+    100020: //RootNode
+    100022: pasted__group3
+    100024: pasted__group3 1
+    100026: pasted__group4
+    100028: pasted__pasted__group1
+    100030: pasted__pasted__group1 1
+    100032: pasted__pasted__group3
+    100034: pasted__pasted__pasted__group1
+    100036: pasted__pasted__pasted__pasted__pCube5
+    100038: pasted__pasted__pasted__pCube5
+    100040: pasted__pasted__pasted__pCube5 1
+    100042: pasted__pCube1
+    100044: pasted__pCube10
+    100046: pasted__pCube11
+    100048: pasted__pCube12
+    100050: pasted__pCube13
+    100052: pasted__pCube14
+    100054: pasted__pCube15
+    100056: pasted__pCube16
+    100058: pasted__pCube17
+    100060: pasted__pCube18
+    100062: pasted__pCube19
+    100064: pasted__pCube20
+    100066: pasted__pCube21
+    100068: pasted__pCube22
+    100070: pasted__pCube23
+    100072: pasted__pCube24
+    100074: pasted__pCube25
+    100076: pasted__pCube26
+    100078: pasted__pCube29
+    100080: pasted__pCube30
+    100082: pasted__pCube31
+    100084: pasted__pCube32
+    100086: pasted__pCube35
+    100088: pasted__pCube36
+    100090: pasted__pCube37
+    100092: pasted__pCube38
+    100094: pasted__pCube39
+    100096: pasted__pCube4
+    100098: pasted__pCube40
+    100100: pasted__pCube41
+    100102: pasted__pCube42
+    100104: pasted__pCube43
+    100106: pasted__pCube44
+    100108: pasted__pCube45
+    100110: pasted__pCube46
+    100112: pasted__pCube47
+    100114: pasted__pCube48
+    100116: pasted__pCube49
+    100118: pasted__pCube5
+    100120: pasted__pCube5 1
+    100122: pasted__pCube50
+    100124: pasted__pCube51
+    100126: pasted__pCube8
+    100128: pasted__pCube9
+    100130: pCube10
+    100132: pCube11
+    100134: pCube12
+    100136: pCube13
+    100138: pCube14
+    100140: pCube2
+    100142: pCube3
+    100144: pCube4
+    100146: pCube5
+    100148: pCube6
+    100150: pCube7
+    100152: pCube7 1
+    100154: pCube7 2
+    100156: pCube8
+    100158: pCube9
+    100160: pTorus1
+    100162: pTorus2
+    100164: pTorus3
+    100166: pTorus3 1
+    100168: pTorus3 2
+    100170: pTorus4
+    100172: pTorus4 1
+    100174: pTorus4 2
+    100176: transform1
+    100178: transform10
+    100180: transform11
+    100182: transform12
+    100184: transform13
+    100186: transform14
+    100188: transform15
+    100190: transform16
+    100192: transform17
+    100194: transform18
+    100196: transform19
+    100198: transform2
+    100200: transform20
+    100202: transform21
+    100204: transform22
+    100206: transform23
+    100208: transform24
+    100210: transform25
+    100212: transform26
+    100214: transform27
+    100216: transform28
+    100218: transform29
+    100220: transform3
+    100222: transform30
+    100224: transform31
+    100226: transform32
+    100228: transform33
+    100230: transform34
+    100232: transform35
+    100234: transform36
+    100236: transform37
+    100238: transform38
+    100240: transform39
+    100242: transform4
+    100244: transform40
+    100246: transform41
+    100248: transform42
+    100250: transform43
+    100252: transform44
+    100254: transform45
+    100256: transform46
+    100258: transform47
+    100260: transform48
+    100262: transform49
+    100264: transform5
+    100266: transform50
+    100268: transform51
+    100270: transform52
+    100272: transform53
+    100274: transform54
+    100276: transform55
+    100278: transform56
+    100280: transform57
+    100282: transform58
+    100284: transform59
+    100286: transform6
+    100288: transform60
+    100290: transform61
+    100292: transform62
+    100294: transform63
+    100296: transform64
+    100298: transform65
+    100300: transform66
+    100302: transform67
+    100304: transform68
+    100306: transform69
+    100308: transform7
+    100310: transform70
+    100312: transform8
+    100314: transform9
+    400000: group
+    400002: group1
+    400004: group3
+    400006: group4
+    400008: group5
+    400010: group6
+    400012: group7
+    400014: group8
+    400016: group9
+    400018: House
+    400020: //RootNode
+    400022: pasted__group3
+    400024: pasted__group3 1
+    400026: pasted__group4
+    400028: pasted__pasted__group1
+    400030: pasted__pasted__group1 1
+    400032: pasted__pasted__group3
+    400034: pasted__pasted__pasted__group1
+    400036: pasted__pasted__pasted__pasted__pCube5
+    400038: pasted__pasted__pasted__pCube5
+    400040: pasted__pasted__pasted__pCube5 1
+    400042: pasted__pCube1
+    400044: pasted__pCube10
+    400046: pasted__pCube11
+    400048: pasted__pCube12
+    400050: pasted__pCube13
+    400052: pasted__pCube14
+    400054: pasted__pCube15
+    400056: pasted__pCube16
+    400058: pasted__pCube17
+    400060: pasted__pCube18
+    400062: pasted__pCube19
+    400064: pasted__pCube20
+    400066: pasted__pCube21
+    400068: pasted__pCube22
+    400070: pasted__pCube23
+    400072: pasted__pCube24
+    400074: pasted__pCube25
+    400076: pasted__pCube26
+    400078: pasted__pCube29
+    400080: pasted__pCube30
+    400082: pasted__pCube31
+    400084: pasted__pCube32
+    400086: pasted__pCube35
+    400088: pasted__pCube36
+    400090: pasted__pCube37
+    400092: pasted__pCube38
+    400094: pasted__pCube39
+    400096: pasted__pCube4
+    400098: pasted__pCube40
+    400100: pasted__pCube41
+    400102: pasted__pCube42
+    400104: pasted__pCube43
+    400106: pasted__pCube44
+    400108: pasted__pCube45
+    400110: pasted__pCube46
+    400112: pasted__pCube47
+    400114: pasted__pCube48
+    400116: pasted__pCube49
+    400118: pasted__pCube5
+    400120: pasted__pCube5 1
+    400122: pasted__pCube50
+    400124: pasted__pCube51
+    400126: pasted__pCube8
+    400128: pasted__pCube9
+    400130: pCube10
+    400132: pCube11
+    400134: pCube12
+    400136: pCube13
+    400138: pCube14
+    400140: pCube2
+    400142: pCube3
+    400144: pCube4
+    400146: pCube5
+    400148: pCube6
+    400150: pCube7
+    400152: pCube7 1
+    400154: pCube7 2
+    400156: pCube8
+    400158: pCube9
+    400160: pTorus1
+    400162: pTorus2
+    400164: pTorus3
+    400166: pTorus3 1
+    400168: pTorus3 2
+    400170: pTorus4
+    400172: pTorus4 1
+    400174: pTorus4 2
+    400176: transform1
+    400178: transform10
+    400180: transform11
+    400182: transform12
+    400184: transform13
+    400186: transform14
+    400188: transform15
+    400190: transform16
+    400192: transform17
+    400194: transform18
+    400196: transform19
+    400198: transform2
+    400200: transform20
+    400202: transform21
+    400204: transform22
+    400206: transform23
+    400208: transform24
+    400210: transform25
+    400212: transform26
+    400214: transform27
+    400216: transform28
+    400218: transform29
+    400220: transform3
+    400222: transform30
+    400224: transform31
+    400226: transform32
+    400228: transform33
+    400230: transform34
+    400232: transform35
+    400234: transform36
+    400236: transform37
+    400238: transform38
+    400240: transform39
+    400242: transform4
+    400244: transform40
+    400246: transform41
+    400248: transform42
+    400250: transform43
+    400252: transform44
+    400254: transform45
+    400256: transform46
+    400258: transform47
+    400260: transform48
+    400262: transform49
+    400264: transform5
+    400266: transform50
+    400268: transform51
+    400270: transform52
+    400272: transform53
+    400274: transform54
+    400276: transform55
+    400278: transform56
+    400280: transform57
+    400282: transform58
+    400284: transform59
+    400286: transform6
+    400288: transform60
+    400290: transform61
+    400292: transform62
+    400294: transform63
+    400296: transform64
+    400298: transform65
+    400300: transform66
+    400302: transform67
+    400304: transform68
+    400306: transform69
+    400308: transform7
+    400310: transform70
+    400312: transform8
+    400314: transform9
+    2100000: Stone
+    2100002: Wood
+    2100004: DarkStone
+    2100006: RedBrown
+    2100008: pasted__RedBrown
+    2100010: GlassShiny
+    2100012: pasted__Wood1
+    2100014: pasted__GlassShiny1
+    2100016: pasted__pasted__pasted__Wood1
+    2100018: pasted__pasted__pasted__GlassShiny1
+    2100020: pasted__pasted__pasted__Wood2
+    2100022: pasted__pasted__pasted__GlassShiny2
+    2100024: pasted__pasted__pasted__pasted__Wood1
+    2100026: pasted__pasted__pasted__pasted__GlassShiny1
+    2100028: pasted__Wood3
+    2100030: pasted__GlassShiny3
+    2100032: Steel
+    2100034: lambert1
+    2300000: House
+    3300000: House
+    4300000: House
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkStone
+    second: {fileID: 2100000, guid: 7af09ff674be2d44abf7947feac72cfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassShiny
+    second: {fileID: 2100000, guid: 397a79374912115489b5b70d471abf0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedBrown
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel
+    second: {fileID: 2100000, guid: a4f11f2ba53266a429f09ced89e22a40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone
+    second: {fileID: 2100000, guid: d1e09f6d06e6fe14aa4c34c3192f796b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: f885b798dd3b5134b8a7d18fbb480f1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__GlassShiny1
+    second: {fileID: 2100000, guid: 397a79374912115489b5b70d471abf0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__GlassShiny3
+    second: {fileID: 2100000, guid: 397a79374912115489b5b70d471abf0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__RedBrown
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Wood1
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Wood3
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__pasted__GlassShiny1
+    second: {fileID: 2100000, guid: 02f1cabb7ac58d142883af483ff695d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__pasted__GlassShiny2
+    second: {fileID: 2100000, guid: 02f1cabb7ac58d142883af483ff695d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__pasted__Wood1
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__pasted__Wood2
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__pasted__pasted__GlassShiny1
+    second: {fileID: 2100000, guid: 02f1cabb7ac58d142883af483ff695d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__pasted__pasted__Wood1
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 110
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

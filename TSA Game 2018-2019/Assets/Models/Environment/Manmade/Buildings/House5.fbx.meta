@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 53fade8992cad0649bc4e1cbaeaca5cb
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: House5
+    100004: House6
+    100006: pCube72
+    100008: pCube74
+    100010: pCube75
+    100012: pCube76
+    100014: pCube77
+    100016: pCube78
+    100018: pCube79
+    100020: pCube80
+    100022: pCube81
+    100024: pCube82
+    100026: pCube83
+    100028: pCube84
+    100030: pCube85
+    100032: pCube86
+    100034: pCube87
+    100036: pCube88
+    100038: pCube89
+    100040: pCube90
+    100042: pCube91
+    100044: pTorus5
+    100046: pTorus6
+    100048: transform1
+    100050: transform10
+    100052: transform11
+    100054: transform12
+    100056: transform13
+    100058: transform14
+    100060: transform15
+    100062: transform16
+    100064: transform17
+    100066: transform18
+    100068: transform19
+    100070: transform2
+    100072: transform20
+    100074: transform21
+    100076: transform3
+    100078: transform4
+    100080: transform5
+    100082: transform6
+    100084: transform7
+    100086: transform8
+    100088: transform9
+    400000: //RootNode
+    400002: House5
+    400004: House6
+    400006: pCube72
+    400008: pCube74
+    400010: pCube75
+    400012: pCube76
+    400014: pCube77
+    400016: pCube78
+    400018: pCube79
+    400020: pCube80
+    400022: pCube81
+    400024: pCube82
+    400026: pCube83
+    400028: pCube84
+    400030: pCube85
+    400032: pCube86
+    400034: pCube87
+    400036: pCube88
+    400038: pCube89
+    400040: pCube90
+    400042: pCube91
+    400044: pTorus5
+    400046: pTorus6
+    400048: transform1
+    400050: transform10
+    400052: transform11
+    400054: transform12
+    400056: transform13
+    400058: transform14
+    400060: transform15
+    400062: transform16
+    400064: transform17
+    400066: transform18
+    400068: transform19
+    400070: transform2
+    400072: transform20
+    400074: transform21
+    400076: transform3
+    400078: transform4
+    400080: transform5
+    400082: transform6
+    400084: transform7
+    400086: transform8
+    400088: transform9
+    2100000: Wood
+    2100002: HouseGray
+    2100004: Glass
+    2100006: House1_Steel
+    2100008: Stone
+    2100010: House1_Wood
+    2300000: House6
+    3300000: House6
+    4300000: House6
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 397a79374912115489b5b70d471abf0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House1_Steel
+    second: {fileID: 2100000, guid: a4f11f2ba53266a429f09ced89e22a40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House1_Wood
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HouseGray
+    second: {fileID: 2100000, guid: f885b798dd3b5134b8a7d18fbb480f1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone
+    second: {fileID: 2100000, guid: d1e09f6d06e6fe14aa4c34c3192f796b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 15
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: e04d1882a88b7de4884f30e8da8aa2f1
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Church1:House2:House1:group7
+    100004: Church1:pCube1
+    100006: Church1:pCube2
+    100008: pCube1
+    100010: pCube10
+    100012: pCube11
+    100014: pCube12
+    100016: pCube13
+    100018: pCube14
+    100020: pCube15
+    100022: pCube16
+    100024: pCube17
+    100026: pCube18
+    100028: pCube19
+    100030: pCube2
+    100032: pCube20
+    100034: pCube21
+    100036: pCube7
+    100038: pCube8
+    100040: pCube9
+    100042: pTorus3
+    100044: pTorus4
+    100046: Church
+    100048: transform1
+    100050: transform10
+    100052: transform11
+    100054: transform12
+    100056: transform13
+    100058: transform14
+    100060: transform15
+    100062: transform16
+    100064: transform17
+    100066: transform18
+    100068: transform19
+    100070: transform2
+    100072: transform20
+    100074: transform21
+    100076: transform3
+    100078: transform4
+    100080: transform5
+    100082: transform6
+    100084: transform7
+    100086: transform8
+    100088: transform9
+    400000: //RootNode
+    400002: Church1:House2:House1:group7
+    400004: Church1:pCube1
+    400006: Church1:pCube2
+    400008: pCube1
+    400010: pCube10
+    400012: pCube11
+    400014: pCube12
+    400016: pCube13
+    400018: pCube14
+    400020: pCube15
+    400022: pCube16
+    400024: pCube17
+    400026: pCube18
+    400028: pCube19
+    400030: pCube2
+    400032: pCube20
+    400034: pCube21
+    400036: pCube7
+    400038: pCube8
+    400040: pCube9
+    400042: pTorus3
+    400044: pTorus4
+    400046: Church
+    400048: transform1
+    400050: transform10
+    400052: transform11
+    400054: transform12
+    400056: transform13
+    400058: transform14
+    400060: transform15
+    400062: transform16
+    400064: transform17
+    400066: transform18
+    400068: transform19
+    400070: transform2
+    400072: transform20
+    400074: transform21
+    400076: transform3
+    400078: transform4
+    400080: transform5
+    400082: transform6
+    400084: transform7
+    400086: transform8
+    400088: transform9
+    2100000: Church1_House2_House1_Stone
+    2100002: Church1_House2_House1_Steel
+    2100004: Church1_House2_House1_Wood
+    2100006: blinn1
+    2100008: Church1_House2_Glass
+    2100010: ChurchBlue
+    2300000: Church1:pCube1
+    2300002: Church1:pCube2
+    2300004: pCube1
+    2300006: pCube10
+    2300008: pCube11
+    2300010: pCube12
+    2300012: pCube13
+    2300014: pCube14
+    2300016: pCube15
+    2300018: pCube16
+    2300020: pCube17
+    2300022: pCube18
+    2300024: pCube19
+    2300026: pCube2
+    2300028: pCube20
+    2300030: pCube21
+    2300032: pCube7
+    2300034: pCube8
+    2300036: pCube9
+    2300038: pTorus3
+    2300040: pTorus4
+    2300042: Church
+    3300000: Church1:pCube1
+    3300002: Church1:pCube2
+    3300004: pCube1
+    3300006: pCube10
+    3300008: pCube11
+    3300010: pCube12
+    3300012: pCube13
+    3300014: pCube14
+    3300016: pCube15
+    3300018: pCube16
+    3300020: pCube17
+    3300022: pCube18
+    3300024: pCube19
+    3300026: pCube2
+    3300028: pCube20
+    3300030: pCube21
+    3300032: pCube7
+    3300034: pCube8
+    3300036: pCube9
+    3300038: pTorus3
+    3300040: pTorus4
+    3300042: Church
+    4300000: Church1:pCube1
+    4300002: pTorus3
+    4300004: pTorus4
+    4300006: pCube7
+    4300008: Church1:pCube2
+    4300010: pCube1
+    4300012: pCube8
+    4300014: pCube9
+    4300016: pCube10
+    4300018: pCube11
+    4300020: pCube12
+    4300022: pCube13
+    4300024: pCube14
+    4300026: pCube15
+    4300028: pCube16
+    4300030: pCube17
+    4300032: pCube2
+    4300034: pCube18
+    4300036: pCube19
+    4300038: pCube20
+    4300040: pCube21
+    4300042: Church
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Church1_House2_Glass
+    second: {fileID: 2100000, guid: 397a79374912115489b5b70d471abf0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Church1_House2_House1_Steel
+    second: {fileID: 2100000, guid: a4f11f2ba53266a429f09ced89e22a40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Church1_House2_House1_Stone
+    second: {fileID: 2100000, guid: f885b798dd3b5134b8a7d18fbb480f1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Church1_House2_House1_Wood
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChurchBlue
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 110
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
