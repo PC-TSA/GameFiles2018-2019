@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: 2aa9e964cab2553488f818617026e408
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Balance2
+    100002: group10
+    100004: group11
+    100006: pCube136
+    100008: pCube137
+    100010: pCube138
+    100012: pCube139
+    100014: pCube140
+    100016: pCube141
+    100018: pCube142
+    100020: pCube143
+    100022: pCube144
+    100024: pCube145
+    100026: pCube146
+    100028: pCube147
+    100030: pCube148
+    100032: pCube149
+    100034: pCube150
+    100036: pCube151
+    100038: pCube152
+    100040: pCube2
+    100042: pCube94
+    100044: pCube95
+    100046: pCube96
+    100048: pCylinder1
+    100050: pCylinder17
+    100052: pCylinder3
+    100054: pCylinder4
+    100056: //RootNode
+    100058: transform138
+    100060: transform139
+    100062: transform140
+    100064: transform141
+    100066: transform142
+    100068: transform143
+    100070: transform144
+    100072: transform145
+    100074: transform146
+    100076: transform147
+    100078: transform148
+    100080: transform149
+    100082: transform150
+    100084: transform151
+    100086: transform152
+    100088: transform153
+    100090: transform154
+    100092: transform155
+    100094: transform156
+    100096: transform157
+    100098: transform158
+    100100: transform159
+    100102: transform160
+    100104: transform161
+    100106: transform162
+    100108: transform163
+    400000: Balance2
+    400002: group10
+    400004: group11
+    400006: pCube136
+    400008: pCube137
+    400010: pCube138
+    400012: pCube139
+    400014: pCube140
+    400016: pCube141
+    400018: pCube142
+    400020: pCube143
+    400022: pCube144
+    400024: pCube145
+    400026: pCube146
+    400028: pCube147
+    400030: pCube148
+    400032: pCube149
+    400034: pCube150
+    400036: pCube151
+    400038: pCube152
+    400040: pCube2
+    400042: pCube94
+    400044: pCube95
+    400046: pCube96
+    400048: pCylinder1
+    400050: pCylinder17
+    400052: pCylinder3
+    400054: pCylinder4
+    400056: //RootNode
+    400058: transform138
+    400060: transform139
+    400062: transform140
+    400064: transform141
+    400066: transform142
+    400068: transform143
+    400070: transform144
+    400072: transform145
+    400074: transform146
+    400076: transform147
+    400078: transform148
+    400080: transform149
+    400082: transform150
+    400084: transform151
+    400086: transform152
+    400088: transform153
+    400090: transform154
+    400092: transform155
+    400094: transform156
+    400096: transform157
+    400098: transform158
+    400100: transform159
+    400102: transform160
+    400104: transform161
+    400106: transform162
+    400108: transform163
+    2100000: LighterStone
+    2100002: PurpleGlow
+    2100004: Stone
+    2100006: DarkWood
+    2100008: DarkStone
+    2100010: LightEmittingMat
+    2100012: Star
+    2100014: Exchange
+    2100016: Entrance
+    2100018: lambert8
+    2100020: Pen
+    2100022: Hammer
+    2100024: Hands
+    2300000: group11
+    2300002: Balance2
+    2300004: pCube136
+    2300006: pCube137
+    2300008: pCube138
+    2300010: pCube139
+    2300012: pCube140
+    2300014: pCube141
+    2300016: pCube142
+    2300018: pCube143
+    2300020: pCube144
+    2300022: pCube145
+    2300024: pCube146
+    2300026: pCube147
+    2300028: pCube148
+    2300030: pCube149
+    2300032: pCube150
+    2300034: pCube151
+    2300036: pCube152
+    2300038: pCube2
+    2300040: pCube94
+    2300042: pCube95
+    2300044: pCube96
+    2300046: pCylinder1
+    2300048: pCylinder17
+    2300050: pCylinder3
+    2300052: pCylinder4
+    3300000: group11
+    3300002: Balance2
+    3300004: pCube136
+    3300006: pCube137
+    3300008: pCube138
+    3300010: pCube139
+    3300012: pCube140
+    3300014: pCube141
+    3300016: pCube142
+    3300018: pCube143
+    3300020: pCube144
+    3300022: pCube145
+    3300024: pCube146
+    3300026: pCube147
+    3300028: pCube148
+    3300030: pCube149
+    3300032: pCube150
+    3300034: pCube151
+    3300036: pCube152
+    3300038: pCube2
+    3300040: pCube94
+    3300042: pCube95
+    3300044: pCube96
+    3300046: pCylinder1
+    3300048: pCylinder17
+    3300050: pCylinder3
+    3300052: pCylinder4
+    4300000: group11
+    4300002: pCylinder1
+    4300004: pCube2
+    4300006: pCylinder4
+    4300008: pCube96
+    4300010: pCylinder3
+    4300012: pCube95
+    4300014: pCube94
+    4300016: pCube152
+    4300018: pCube151
+    4300020: pCube150
+    4300022: pCylinder17
+    4300024: pCube139
+    4300026: pCube147
+    4300028: pCube141
+    4300030: pCube140
+    4300032: pCube138
+    4300034: pCube137
+    4300036: pCube136
+    4300038: pCube146
+    4300040: pCube145
+    4300042: Balance2
+    4300044: pCube149
+    4300046: pCube148
+    4300048: pCube144
+    4300050: pCube143
+    4300052: pCube142
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkStone
+    second: {fileID: 2100000, guid: 3783610cf756ef441a3f2136d4fd028e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkWood
+    second: {fileID: 2100000, guid: 52d9ad1f793aaef4daddf79cc47b3520, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Entrance
+    second: {fileID: 2100000, guid: 81f6334fa71d5dd4f8987fea7f806503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exchange
+    second: {fileID: 2100000, guid: f786667692a8a734ca352c9537fadc35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hammer
+    second: {fileID: 2100000, guid: 0423a19cdea107e498f5092322137bc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hands
+    second: {fileID: 2100000, guid: 6ad3c3afd521a764794999332e2b4670, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightEmittingMat
+    second: {fileID: 2100000, guid: b9a20bf795a1744418323cf8cd8a880b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LighterStone
+    second: {fileID: 2100000, guid: 69d1106caf1e4b44290069425404337f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pen
+    second: {fileID: 2100000, guid: 14bba8c90a8b185439de1203ef0626d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PurpleGlow
+    second: {fileID: 2100000, guid: 3d60e975ec1b19d4d941d4332e355db7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Star
+    second: {fileID: 2100000, guid: 32d309cf8721b5544922854d9371985b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone
+    second: {fileID: 2100000, guid: df599ad9f0800ac40a33bc85c8f8d27c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert8
+    second: {fileID: 2100000, guid: 5557654b0e9ca4041807562d7839fdde, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 35
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

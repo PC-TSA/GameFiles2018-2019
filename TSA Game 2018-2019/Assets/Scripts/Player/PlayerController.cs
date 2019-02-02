@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         //Gets post processing profile attached to camera so values can be changed at runtime
+        postProcessVolume = playerCamera.GetComponent<PostProcessVolume>();
         postProcessVolume.profile.TryGetSettings(out bloomLayer);
         postProcessVolume.profile.TryGetSettings(out ambientOcclusionLayer);
         postProcessVolume.profile.TryGetSettings(out colorGradingLayer);
