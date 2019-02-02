@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 497b47384130a2344af489ca3813ec41
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCube136
+    100004: pCube172
+    100006: pCube173
+    100008: pCube174
+    100010: pCube175
+    100012: polySurface13
+    100014: polySurface14
+    100016: polySurface15
+    100018: polySurface16
+    100020: polySurface17
+    100022: polySurface18
+    100024: polySurface19
+    100026: polySurface20
+    100028: polySurface21
+    100030: polySurface22
+    100032: polySurface23
+    100034: Sword11
+    100036: Sword12
+    100038: Sword13
+    100040: Sword14
+    100042: Sword15
+    100044: Sword16
+    100046: Sword17
+    100048: Sword18
+    100050: Sword19
+    100052: transform100
+    100054: transform101
+    100056: transform102
+    100058: transform103
+    100060: transform81
+    100062: transform82
+    100064: transform83
+    100066: transform84
+    100068: transform85
+    100070: transform86
+    100072: transform87
+    100074: transform88
+    100076: transform89
+    100078: transform90
+    100080: transform91
+    100082: transform92
+    100084: transform93
+    100086: transform94
+    100088: transform95
+    100090: transform96
+    100092: transform97
+    100094: transform98
+    100096: transform99
+    400000: //RootNode
+    400002: pCube136
+    400004: pCube172
+    400006: pCube173
+    400008: pCube174
+    400010: pCube175
+    400012: polySurface13
+    400014: polySurface14
+    400016: polySurface15
+    400018: polySurface16
+    400020: polySurface17
+    400022: polySurface18
+    400024: polySurface19
+    400026: polySurface20
+    400028: polySurface21
+    400030: polySurface22
+    400032: polySurface23
+    400034: Sword11
+    400036: Sword12
+    400038: Sword13
+    400040: Sword14
+    400042: Sword15
+    400044: Sword16
+    400046: Sword17
+    400048: Sword18
+    400050: Sword19
+    400052: transform100
+    400054: transform101
+    400056: transform102
+    400058: transform103
+    400060: transform81
+    400062: transform82
+    400064: transform83
+    400066: transform84
+    400068: transform85
+    400070: transform86
+    400072: transform87
+    400074: transform88
+    400076: transform89
+    400078: transform90
+    400080: transform91
+    400082: transform92
+    400084: transform93
+    400086: transform94
+    400088: transform95
+    400090: transform96
+    400092: transform97
+    400094: transform98
+    400096: transform99
+    2100000: Sword_Steel
+    2100002: Sword_Brass
+    2100004: House1_Steel
+    2100006: Wood
+    2100008: Guard_Helmet_phong1
+    2100010: Barrel_Wood
+    2100012: lambert1
+    2100014: mellowyellow
+    2100016: House1_RedBrown
+    2300000: Sword19
+    3300000: Sword19
+    4300000: Sword19
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 40
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
