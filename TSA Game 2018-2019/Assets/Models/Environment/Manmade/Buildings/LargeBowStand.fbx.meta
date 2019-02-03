@@ -182,7 +182,42 @@ ModelImporter:
     3300000: pCube135
     4300000: pCube135
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel_Wood
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bow_Black
+    second: {fileID: 2100000, guid: 7af09ff674be2d44abf7947feac72cfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bow_Gold
+    second: {fileID: 2100000, guid: 2ae9a075a5b7f4945858d346b5a07c57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House1_RedBrown
+    second: {fileID: 2100000, guid: afc56bd93a158904688e892ef56315e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House1_pasted__Wood
+    second: {fileID: 2100000, guid: 7f35953f8024e5c42ae714afcd5f8fb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 1cd7037d43bbe514b9014ca45c11d7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: f885b798dd3b5134b8a7d18fbb480f1e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

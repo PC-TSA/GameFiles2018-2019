@@ -1,2 +1,88 @@
-Base path: C:/Program Files/Unity/Hub/Editor/2017.4.18f1/Editor/Data
+Base path: E:/Unity/2017.4.18f1/Editor/Data
 Cmd: initializeCompiler
+Cmd: preprocess
+  insize=2348 outsize=633 ok=1
+Cmd: preprocess
+  insize=922 outsize=739 ok=1
+Cmd: preprocess
+  insize=3115 outsize=305 ok=1
+Cmd: preprocess
+  insize=6536 outsize=3109 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2057 outsize=1517 ok=1
+Cmd: preprocess
+  insize=11491 outsize=935 ok=1
+Cmd: preprocess
+  insize=1521 outsize=218 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1174 outsize=821 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2778 outsize=47805 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=10879 outsize=9693 ok=1
+Cmd: preprocess
+  insize=1181 outsize=305 ok=1
+Cmd: preprocess
+  insize=12339 outsize=530 ok=1
+Cmd: preprocess
+  insize=1802 outsize=303 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4845 outsize=3733 ok=1
+Cmd: preprocess
+  insize=2476 outsize=831 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3394 outsize=2581 ok=1
+Cmd: preprocess
+  insize=6092 outsize=364 ok=1
+Cmd: preprocess
+  insize=597 outsize=217 ok=1
+Cmd: preprocess
+  insize=1656 outsize=350 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18297 outsize=8545 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18297 outsize=8925 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18297 outsize=10769 ok=1
+Cmd: preprocess
+  insize=3209 outsize=789 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5433 outsize=6445 ok=1
+Cmd: preprocess
+  insize=7150 outsize=397 ok=1
+Cmd: preprocess
+  insize=2404 outsize=1061 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2865 outsize=1329 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1804 outsize=1389 ok=1
+Cmd: preprocess
+  insize=1606 outsize=222 ok=1
+Cmd: preprocess
+  insize=1143 outsize=1178 ok=1
+Cmd: preprocess
+  insize=3571 outsize=223 ok=1
+Cmd: preprocess
+  insize=11969 outsize=996 ok=1
+Cmd: preprocess
+  insize=6257 outsize=1252 ok=1
+Cmd: preprocess
+  insize=1133 outsize=389 ok=1
+Cmd: preprocess
+  insize=3070 outsize=1373 ok=1
+Cmd: preprocess
+  insize=3632 outsize=364 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1452 outsize=1461 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2042 outsize=1033 ok=1
+Cmd: preprocess
+  insize=2270 outsize=637 ok=1
+Cmd: preprocess
+  insize=4041 outsize=373 ok=1
+Cmd: preprocess
+  insize=2609 outsize=220 ok=1
+Cmd: preprocess
+  insize=1979 outsize=735 ok=1
+Cmd: preprocess
+  insize=1344 outsize=291 ok=1

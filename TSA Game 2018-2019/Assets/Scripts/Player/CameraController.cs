@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public GameObject characterModel;
-
     Vector2 _mouseAbsolute;
     Vector2 _smoothMouse;
 
@@ -15,6 +13,8 @@ public class CameraController : MonoBehaviour
     public Vector2 smoothing = new Vector2(3, 3);
     public Vector2 targetDirection;
     public Vector2 targetCharacterDirection;
+
+    public Vector3 euler;
 
     // Assign this if there's a parent object controlling motion, such as a Character Controller.
     // Yaw rotation will affect this object instead of the camera if set.
@@ -39,6 +39,7 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
+        euler = transform.localPosition;
         // Ensure the cursor is always locked when set
         if (lockCursor)
         {
@@ -78,5 +79,10 @@ public class CameraController : MonoBehaviour
             var yRotation = Quaternion.AngleAxis(_mouseAbsolute.x, Vector3.up);
             characterBody.transform.localRotation = yRotation * targetCharacterOrientation;
         }
+
+        if(transform.localRotation.x < 0)
+            transform.parent.localPosition = new Vector3(-Mathf.Abs(transform.localRotation.x) * 0.93f, 1, 0);
+        else
+            transform.parent.localPosition = new Vector3(0, 1, 0);
     }
 }
