@@ -263,8 +263,10 @@
     <Compile Include="Assets\LowPolyWater\Water.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\LightFlicker.cs" />
+    <Compile Include="Assets\Scripts\MeteorController.cs" />
     <Compile Include="Assets\Scripts\Object Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\Object Scripts\Sanctuary\SanctuaryController.cs" />
+    <Compile Include="Assets\Scripts\Object Scripts\Sanctuary\SanctuaryCutsceneController.cs" />
     <Compile Include="Assets\Scripts\Object Scripts\Sanctuary\SanctuaryDoor.cs" />
     <Compile Include="Assets\Scripts\Object Scripts\Vault\VaultController.cs" />
     <Compile Include="Assets\Scripts\Object Scripts\Vault\VaultDoorScript.cs" />

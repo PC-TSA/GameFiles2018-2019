@@ -1,31 +1,48 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
     public bool haveBeatenGame;
 
+    public GameObject playerObj;
+
     public AudioClip shortMainTheme; //Used in the second cutscene, where the player reaches for the cube
+    public AudioClip vaultTheme;
+    public AudioClip spookyTheme;
 
     public GameObject vaultObj; //The entire first vault object; is disabled by default, enabled when enterred from PlayerController's EnterVault()
     public GameObject sanctuaryObj; //^
     public GameObject townObj;
 
+    public GameObject startButton;
+    public GameObject mainMenuText;
+
+    public ParticleSystem meteorParticle;
+    public ParticleSystem meteorExplosionParticle;
+
 	// Use this for initialization
 	void Start () {
         QualitySettings.vSyncCount = 1;
-
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.visible = true;
     }
 
-    private void OnApplicationFocus(bool focus)
+    public void startGame()
     {
-        if(focus)
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-        }
+        playerObj.GetComponent<PlayableDirector>().Play();
+
+        Color temp = mainMenuText.GetComponent<Image>().color;
+        temp.a = 0;
+        mainMenuText.GetComponent<Image>().color = temp;
+
+        startButton.SetActive(false);
+        meteorParticle.Play();
+        meteorExplosionParticle.Play();
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }

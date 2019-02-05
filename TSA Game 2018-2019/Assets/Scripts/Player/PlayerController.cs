@@ -75,12 +75,12 @@ public class PlayerController : MonoBehaviour
                 characterBody.GetComponent<Animator>().SetBool("isRunning", false);
                 AnimCanSwitch();
             }
-            if(Input.GetKeyDown(KeyCode.E))
+            /*if(Input.GetKeyDown(KeyCode.E))
             {
                 characterBody.GetComponent<Animator>().SetBool("hasHandOut", true);
                 characterBody.GetComponent<Animator>().SetBool("isIdle", false);
                 AnimCanSwitch();
-            }
+            }*/
 
             if (characterBody.GetComponent<Animator>().GetBool("isSlashing") && characterBody.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.7f && characterBody.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Slash")) //If the slashing anim is done playing
             {
@@ -102,8 +102,10 @@ public class PlayerController : MonoBehaviour
         //Sets bloom when entering the vault to be higher
         bloomLayer.intensity.value = 2.5f;
         bloomLayer.threshold.value = 0.5f;
-
         ambientOcclusionLayer.intensity.value = 0.7f;
+
+        gc.GetComponent<AudioSource>().clip = gc.spookyTheme;
+        gc.GetComponent<AudioSource>().Play();
     }
 
     public void EnterSanctuary()
@@ -159,6 +161,7 @@ public class PlayerController : MonoBehaviour
         fadeToBlackObj.GetComponent<Animator>().Play("FadeToBlack");
         yield return new WaitForSeconds(1);
         obj.SetActive(status);
+        DisableInteractUI();
         transform.GetChild(0).position = coords;
     }
 
@@ -168,6 +171,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(1);
         objTrue.SetActive(true);
         objFalse.SetActive(false);
+        DisableInteractUI();
         transform.GetChild(0).position = coords;
     }
 }

@@ -19,6 +19,19 @@ public class TimelineAnimTrigger : MonoBehaviour {
     public bool cubeWaveTrigger;
     public bool cubeWaveTriggerRunner;
 
+    public bool exitNothingIdle;
+    public bool exitNothingIdleRunner;
+    public GameObject introRoomObj;
+    public GameObject meteor;
+
+    public bool smokeStopTrigger;
+    public bool smokeStopTriggerRunner;
+    public ParticleSystem smokeParticle;
+
+    public bool sendOutCubeTrigger;
+    public bool sendOutCubeTriggerRunner;
+    public GameObject cube;
+
     // Update is called once per frame
     void Update () {
         if (lockIntoAnim && !lockIntoAnimRunner)
@@ -39,6 +52,29 @@ public class TimelineAnimTrigger : MonoBehaviour {
             cubeWaveTrigger = false;
             cubeWaveParticleSystem.Play();
             cubeWaveTriggerRunner = true;
+        }
+        if (exitNothingIdle && !exitNothingIdleRunner)
+        {
+            exitNothingIdle = false;
+            characterBodyAnim.SetBool("ExitNothingIdle", true);
+            Destroy(introRoomObj);
+            Destroy(meteor);
+            smokeParticle.Play();
+            exitNothingIdleRunner = true;
+        }
+        if(smokeStopTrigger && !smokeStopTriggerRunner)
+        {
+            smokeStopTrigger = false;
+            smokeParticle.Stop();
+            smokeStopTriggerRunner = true;
+        }
+        if (sendOutCubeTrigger && !sendOutCubeTriggerRunner)
+        {
+            sendOutCubeTrigger = false;
+            characterBodyAnim.Play("HandOutForCube");
+            characterBodyAnim.SetBool("hasHandOut", true);
+            cube.SetActive(true);
+            sendOutCubeTriggerRunner = true;
         }
     }
 }
