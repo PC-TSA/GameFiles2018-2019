@@ -14,6 +14,9 @@ public class PlayerController : MonoBehaviour
 
     public GameObject playerCamera;
 
+    public int health;
+    public GameObject healthBar;
+
     public GameObject playerCanvasObj;
     public GameObject interactDisplay; //The box on the bottom of the screen that shows which key to press to interact with something
     public GameObject fadeToBlackObj; //The object used to fade to and from a black screen
@@ -36,6 +39,12 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
+        healthBar.GetComponent<Slider>().maxValue = health;
+        healthBar.GetComponent<Slider>().value = health;
+
         //Gets post processing profile attached to camera so values can be changed at runtime
         postProcessVolume = playerCamera.GetComponent<PostProcessVolume>();
         postProcessVolume.profile.TryGetSettings(out bloomLayer);
@@ -60,13 +69,13 @@ public class PlayerController : MonoBehaviour
         var shape = dustParticleSystem.GetComponent<ParticleSystem>().shape;
         shape.position = new Vector3(character.transform.localPosition.x, character.transform.localPosition.y + 2, character.transform.localPosition.z);
 
-        if (!lockIntoAnim && !characterBody.GetComponent<Animator>().GetBool("hasHandOut"))
+        if (!lockIntoAnim)
         {
-            if (Input.GetKeyDown(KeyCode.Q))
+            /*if (Input.GetKeyDown(KeyCode.Q))
             {
                 isWeaponEquipped = !isWeaponEquipped;
                 weapon.SetActive(isWeaponEquipped);
-            }
+            }*/
 
             if (Input.GetMouseButton(0) && !characterBody.GetComponent<Animator>().GetBool("isSlashing"))
             {
@@ -98,6 +107,7 @@ public class PlayerController : MonoBehaviour
 
     public void EnterVault()
     {
+        healthBar.SetActive(true);
         StartCoroutine(FadeToBlackTP(gc.vaultObj.GetComponent<VaultController>().teleportPoint.transform.position, gc.vaultObj, true));
         //Sets bloom when entering the vault to be higher
         bloomLayer.intensity.value = 2.5f;
@@ -106,11 +116,17 @@ public class PlayerController : MonoBehaviour
 
         gc.GetComponent<AudioSource>().clip = gc.spookyTheme;
         gc.GetComponent<AudioSource>().Play();
+
+        isWeaponEquipped = true;
+        weapon.SetActive(true);
     }
 
     public void EnterSanctuary()
     {
         StartCoroutine(FadeToBlackTP(gc.sanctuaryObj.GetComponent<SanctuaryController>().teleportPoint.transform.position, gc.sanctuaryObj, gc.vaultObj)); //Fades to black, TPs player to sanctuary, enables sanctuary, disables vault
+        isWeaponEquipped = false;
+        weapon.SetActive(false);
+        healthBar.SetActive(false);
     }
 
     public void LeaveSanctuary()
@@ -142,6 +158,7 @@ public class PlayerController : MonoBehaviour
     {
         interactDisplay.SetActive(true);
         interactDisplay.transform.GetChild(0).GetComponent<Text>().text = text;
+        interactDisplay.transform.GetChild(2).gameObject.SetActive(true);
     }
 
     public void DisableInteractUI() //Disables the box on the bottom of the screen showing which key to press to interact with something
@@ -173,5 +190,15 @@ public class PlayerController : MonoBehaviour
         objFalse.SetActive(false);
         DisableInteractUI();
         transform.GetChild(0).position = coords;
+    }
+
+    public void TakeDamage(int dmg)
+    {
+        health -= dmg;
+        healthBar.GetComponent<Slider>().value = health;
+        if(health <= 0)
+        {
+            //Death code
+        }
     }
 }

@@ -21,8 +21,15 @@ public class GameController : MonoBehaviour {
     public GameObject startButton;
     public GameObject mainMenuText;
 
+    public GameObject displayBox;
+    public Text displayBoxText;
+    public GameObject displayBoxDialogueObjects;
+    public GameObject displayBoxInteractionObjects;
+
     public ParticleSystem meteorParticle;
     public ParticleSystem meteorExplosionParticle;
+
+    public GameObject npcs;
 
 	// Use this for initialization
 	void Start () {

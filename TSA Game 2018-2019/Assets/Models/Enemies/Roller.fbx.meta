@@ -18,7 +18,9 @@ ModelImporter:
     2100000: lambert3
     2100002: lambert2
     2300000: Roller
+    2300002: //RootNode
     3300000: Roller
+    3300002: //RootNode
     4300000: Roller
     9500000: //RootNode
   externalObjects:

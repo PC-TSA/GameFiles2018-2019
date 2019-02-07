@@ -21,6 +21,13 @@ public class TimelineAnimTrigger : MonoBehaviour {
 
     public bool exitNothingIdle;
     public bool exitNothingIdleRunner;
+
+    public bool enterNothingIdle;
+    public bool enterNothingIdleRunner;
+
+    public bool quitGame;
+    public bool quitGameRunner;
+
     public GameObject introRoomObj;
     public GameObject meteor;
 
@@ -61,20 +68,39 @@ public class TimelineAnimTrigger : MonoBehaviour {
             Destroy(meteor);
             smokeParticle.Play();
             exitNothingIdleRunner = true;
+            pc.lockIntoAnim = false;
         }
-        if(smokeStopTrigger && !smokeStopTriggerRunner)
+        if (enterNothingIdle && !enterNothingIdleRunner)
+        {
+            enterNothingIdle = false;
+            characterBodyAnim.SetBool("ExitNothingIdle", false);
+            characterBodyAnim.Play("NothingIdle");
+            enterNothingIdleRunner = true;
+        }
+        if (smokeStopTrigger && !smokeStopTriggerRunner)
         {
             smokeStopTrigger = false;
             smokeParticle.Stop();
+            gc.npcs.SetActive(true);
             smokeStopTriggerRunner = true;
         }
         if (sendOutCubeTrigger && !sendOutCubeTriggerRunner)
         {
             sendOutCubeTrigger = false;
             characterBodyAnim.Play("HandOutForCube");
-            characterBodyAnim.SetBool("hasHandOut", true);
             cube.SetActive(true);
             sendOutCubeTriggerRunner = true;
         }
+        if (quitGame && !quitGameRunner)
+        {
+            quitGameRunner = true;
+            StartCoroutine(QuitGame());
+        }
+    }
+
+    IEnumerator QuitGame()
+    {
+        yield return new WaitForSeconds(5);
+        Application.Quit();
     }
 }
