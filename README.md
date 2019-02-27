@@ -3,42 +3,22 @@
 The Unity Project files for the TSA Game 2018-2019 (Theme: RPG that is TSA focused)
 
 ## Project Members
-> **Alan Goff**
+> **Bruce Kolettis**
 
-> Ally Lo Re
+> Charles Berman
 
-> Benjamin Berger
-
-> _Chase O'Brien_
-
-> Derek Blandford
-
-> **Giuliana Cascarano**
+> **Ella Taub**
 
 > **_Gabriel Moncau_** (Team Captain)
 
-> Jacob Moss
+> _Jack Nagle_
 
-> Jacqueline Fogel
+> Kelly Pinilla
 
-> Justinsoye homas
+> **Lara Jones**
 
-> Malcolm Widger
+> Luke Farlie
 
-> **Mary Goncharenko**
-
-> **Matthew Mulhall**
-
-> Pedro Ribeiro
-
-> Pryce Markson
-
-> Ronald Paez
-
-> Ryan Karp
-
-> **Spencer Waldshan**
-
-> Zaria Pirani
+> _Pryce Markson_
 
 Normal = signed up for team, _Italics_ = Honorable mention, **Bold** = official team member, **_Bold + Italics_** = Captain
