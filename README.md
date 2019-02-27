@@ -1,5 +1,6 @@
-# 3D Animation 2018 - 2019
-The Unity Project files for the TSA 3D Animation 2018-2019 (Theme: Ancient Technology)
+![alt text](https://raw.githubusercontent.com/iTeamVGD/GameFiles2018-2019/master/LegacyCropped.png)
+# GameFiles2018-2019
+The Unity Project files for the TSA Game 2018-2019 (Theme: RPG that is TSA focused)
 
 ## Project Members
 > **Bruce Kolettis**
